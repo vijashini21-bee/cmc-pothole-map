@@ -1,0 +1,455 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.85575671,
+          6.945128799
+        ]
+      },
+      "properties": {
+        "id": "1",
+        "road_name": "St.Anthony's St",
+        "type": "Pothole",
+        "severity": "Low",
+        "source": "https://maps.app.goo.gl/CMSoawsxfHUWCwN5A",
+        "image": "images/1.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.86174651,
+          6.946043896
+        ]
+      },
+      "properties": {
+        "id": "2",
+        "road_name": "Galpotta St",
+        "type": "Damaged road, construction",
+        "severity": "High",
+        "source": "https://maps.app.goo.gl/9Hxj47DUuV8muk7s8",
+        "image": "images/2.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.85865391,
+          6.942926095
+        ]
+      },
+      "properties": {
+        "id": "3",
+        "road_name": "Ginthupitiya St",
+        "type": "Damaged Drainage",
+        "severity": "Medium",
+        "source": "https://maps.app.goo.gl/8maiCmdV3dq8Qbn4A",
+        "image": "images/3.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.85601645,
+          6.936313599
+        ]
+      },
+      "properties": {
+        "id": "4",
+        "road_name": "Dias Pl",
+        "type": "Damaged road, construction",
+        "severity": "Medium",
+        "source": "https://maps.app.goo.gl/NpLBwLnD6kTxyepEA",
+        "image": "images/4.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.85634858,
+          6.934927298
+        ]
+      },
+      "properties": {
+        "id": "5",
+        "road_name": "Saunders Pl",
+        "type": "Damaged Drainage",
+        "severity": "Medium",
+        "source": "https://maps.app.goo.gl/7yRpUQRRP4gE56qK6",
+        "image": "images/5.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.86779254,
+          6.966116747
+        ]
+      },
+      "properties": {
+        "id": "6",
+        "road_name": "Modera St",
+        "type": "Pothole",
+        "severity": "Low",
+        "source": "https://maps.app.goo.gl/Q93WBB7AUVxx1PyR8",
+        "image": "images/6.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.87799806,
+          6.958976716
+        ]
+      },
+      "properties": {
+        "id": "7",
+        "road_name": "Ferguson's road",
+        "type": "Damaged road",
+        "severity": "Low",
+        "source": "https://maps.app.goo.gl/2z1hv4D6W13PNfuWA",
+        "image": "images/7.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.87766034,
+          6.961773884
+        ]
+      },
+      "properties": {
+        "id": "8",
+        "road_name": "Ferguson's road",
+        "type": "Pothole",
+        "severity": "High",
+        "source": "https://maps.app.goo.gl/2z1hv4D6W13PNfuWA",
+        "image": "images/8.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.86849792,
+          6.927050597
+        ]
+      },
+      "properties": {
+        "id": "9",
+        "road_name": "Hikkaduwa Sri Sumangala Himi Mw",
+        "type": "Pothole",
+        "severity": "High",
+        "source": "https://maps.app.goo.gl/JgNWTf1RRWLWg75s8",
+        "image": "images/9.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.87328746,
+          6.924556677
+        ]
+      },
+      "properties": {
+        "id": "10",
+        "road_name": "Temple Ave",
+        "type": "Damaged Drainage",
+        "severity": "Medium",
+        "source": "https://maps.app.goo.gl/oPQVUVJsjUPQaKSn9",
+        "image": "images/10.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.8645139,
+          6.921724262
+        ]
+      },
+      "properties": {
+        "id": "11",
+        "road_name": "Hedges Ct",
+        "type": "Damaged road, construction",
+        "severity": "Medium",
+        "source": "https://maps.app.goo.gl/FnR4oqwTPG89LJpy7",
+        "image": "images/11.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.8650513,
+          6.924902837
+        ]
+      },
+      "properties": {
+        "id": "12",
+        "road_name": "Devanampiyatissa Mawatha",
+        "type": "Damaged Pavement",
+        "severity": "Medium",
+        "source": "https://maps.app.goo.gl/p4kLSNzhyvaznPMDA",
+        "image": "images/12.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.85620416,
+          6.941379252
+        ]
+      },
+      "properties": {
+        "id": "13",
+        "road_name": "St.Paul's Mw",
+        "type": "Damaged Drainage",
+        "severity": "Low",
+        "source": "https://maps.app.goo.gl/JZ9tMEET8T5NPCPp9",
+        "image": "images/13.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.8561466,
+          6.944562786
+        ]
+      },
+      "properties": {
+        "id": "14",
+        "road_name": "Ratnam road",
+        "type": "Damaged Drainage",
+        "severity": "Low",
+        "source": "https://maps.app.goo.gl/RRsobXx6U2we7bPN9",
+        "image": "images/14.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.86516981,
+          6.949215654
+        ]
+      },
+      "properties": {
+        "id": "15",
+        "road_name": "St.Benedict's St",
+        "type": "Damaged Drainage",
+        "severity": "Low",
+        "source": "https://maps.app.goo.gl/6yuMnsy58DjbuuR57",
+        "image": "images/15.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.86714921,
+          6.948396044
+        ]
+      },
+      "properties": {
+        "id": "16",
+        "road_name": "K. Cyril C. Perera Mawatha",
+        "type": "Damaged Drainage",
+        "severity": "Medium",
+        "source": "https://maps.app.goo.gl/EJm1Z1NtprH9Cy638",
+        "image": "images/16.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.86104161,
+          6.946093794
+        ]
+      },
+      "properties": {
+        "id": "17",
+        "road_name": "K. B. Christy Perera Mawatha",
+        "type": "Pothole",
+        "severity": "Low",
+        "source": "https://maps.app.goo.gl/iizpFHRvDx6eV38o6",
+        "image": "images/17.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.87615112,
+          6.975252522
+        ]
+      },
+      "properties": {
+        "id": "18",
+        "road_name": "Mattakkuliya Farm Rd",
+        "type": "Pothole",
+        "severity": "Low",
+        "source": "https://maps.app.goo.gl/g3jT1MufP6cKXd6x8",
+        "image": "images/18.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.88389621,
+          6.97672738
+        ]
+      },
+      "properties": {
+        "id": "19",
+        "road_name": "Sri Wickrama Mawatha",
+        "type": "Damaged Pavement",
+        "severity": "Medium",
+        "source": "https://maps.app.goo.gl/TXnmtaJiWyfcWsUT7",
+        "image": "images/19.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.87493764,
+          6.97963461
+        ]
+      },
+      "properties": {
+        "id": "20",
+        "road_name": "Hendala Ferry Rd",
+        "type": "Damaged Drainage",
+        "severity": "High",
+        "source": "https://maps.app.goo.gl/hvpKUrbomX3bNWHG7",
+        "image": "images/20.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.85503494,
+          6.939175275
+        ]
+      },
+      "properties": {
+        "id": "21",
+        "road_name": "Dam St",
+        "type": "Pothole",
+        "severity": "Low",
+        "source": "https://maps.app.goo.gl/WHappjRf7MYmDhpt5",
+        "image": "images/21.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.85804675,
+          6.932033713
+        ]
+      },
+      "properties": {
+        "id": "22",
+        "road_name": "Olcott Mawatha",
+        "type": "Pothole",
+        "severity": "Low",
+        "source": "https://maps.app.goo.gl/5Qy3VLMe7HRKBnvJ6",
+        "image": "images/22.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.87010157,
+          6.965230498
+        ]
+      },
+      "properties": {
+        "id": "23",
+        "road_name": "New Negombo Rd",
+        "type": "Damaged Pavement",
+        "severity": "Medium",
+        "source": "https://maps.app.goo.gl/JkhPzHNY9E5nqYnm7",
+        "image": "images/23.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.86227097,
+          6.961319273
+        ]
+      },
+      "properties": {
+        "id": "24",
+        "road_name": "St.Andrew's Rd",
+        "type": "Damaged Drainage",
+        "severity": "Medium",
+        "source": "https://maps.app.goo.gl/ZzWV7SE2K6E7mGFJ6",
+        "image": "images/24.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.86064334,
+          6.951335487
+        ]
+      },
+      "properties": {
+        "id": "25",
+        "road_name": "Sri Gunananda Mawatha",
+        "type": "Damaged Pavement",
+        "severity": "Low",
+        "source": "https://maps.app.goo.gl/Kuq2AXJ7Rcjo5rjw5",
+        "image": "images/25.png"
+      }
+    }
+  ]
+}
