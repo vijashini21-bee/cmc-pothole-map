@@ -2,21 +2,86 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>CMC Road Pothole & Infrastructure Reporting Map</title>
-
-  <!-- Leaflet CSS from CDN -->
+  <title>Road Pothole & Infrastructure Reporting Map - CMC</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
   <div id="map"></div>
 
-  <!-- Leaflet JS from CDN -->
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <div id="titleBar">
+    <h1>Road Pothole &amp; Infrastructure Reporting Map - CMC</h1>
+    <p>Click anywhere on the map to report an issue</p>
+  </div>
 
-  <!-- Your map logic -->
+  <div id="reportCounter">Public reports: <span id="reportCount">0</span></div>
+
+  <div id="legend">
+    <b>Infrastructure Index</b>
+    <div class="legend-row"><span class="legend-swatch" style="background:#B2FF00"></span> Low</div>
+    <div class="legend-row"><span class="legend-swatch" style="background:#FFEA00"></span> Medium</div>
+    <div class="legend-row"><span class="legend-swatch" style="background:#FF00A0"></span> High</div>
+    <br>
+    <b>Point Type &amp; Severity</b>
+    <div class="type-header">
+      <span></span>
+      <span>L</span>
+      <span>M</span>
+      <span>H</span>
+    </div>
+    <div class="type-row">
+      <span class="type-label">Pothole</span>
+      <span class="sw" style="background:#90CAF9"></span>
+      <span class="sw" style="background:#1E88E5"></span>
+      <span class="sw" style="background:#0D47A1"></span>
+    </div>
+    <div class="type-row">
+      <span class="type-label">Damaged Pavement</span>
+      <span class="sw" style="background:#A5D6A7"></span>
+      <span class="sw" style="background:#2E7D32"></span>
+      <span class="sw" style="background:#1B3B1E"></span>
+    </div>
+    <div class="type-row">
+      <span class="type-label">Damaged Drainage</span>
+      <span class="sw" style="background:#F48FB1"></span>
+      <span class="sw" style="background:#D81B60"></span>
+      <span class="sw" style="background:#880E4F"></span>
+    </div>
+    <div class="type-row">
+      <span class="type-label">Damaged Road</span>
+      <span class="sw" style="background:#FFCC80"></span>
+      <span class="sw" style="background:#EF6C00"></span>
+      <span class="sw" style="background:#8D4004"></span>
+    </div>
+    <div class="type-row">
+      <span class="type-label">Other</span>
+      <span class="sw" style="background:#CE93D8"></span>
+      <span class="sw" style="background:#8E24AA"></span>
+      <span class="sw" style="background:#4A148C"></span>
+    </div>
+    <br>
+    <b>Marker Style</b>
+    <div class="legend-row"><span class="legend-dot legend-dot-solid" style="background:#1E88E5;"></span> Surveyed point</div>
+    <div class="legend-row"><span class="legend-dot legend-dot-dashed" style="background:#1E88E5;"></span> Public report</div>
+  </div>
+
+  <div id="welcomeOverlay">
+    <div id="welcomeBox">
+      <h3>Welcome to the CMC Pothole & Infrastructure Map</h3>
+      <p>This map shows road and infrastructure exposure across CMC, combining a surveyed baseline with live public reports.</p>
+      <button id="welcomeClose">Start tour</button>
+    </div>
+  </div>
+
+  <div id="tourCard"></div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-storage-compat.js"></script>
   <script src="script.js"></script>
 
 </body>
